@@ -30,8 +30,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img ![step 1 of os ticket install](https://github.com/emodjeska/osticket-prereqs/assets/143763072/95657e71-4828-4595-a833-a632bfd0a24d)
-="Disk Sanitization Steps"/>
+<![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/8d839aa5-335b-4b64-a2ca-a00f35939ebd)
+>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
