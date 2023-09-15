@@ -43,10 +43,7 @@ Now that we have downloaded IIS, we can download Web Platform Installers (Web PI
 
 From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload”.  reload IIS. Go to sites -> default -> osTicket, from here on the top righthand side of the sreen you will select "restart" and the system will restart with osTicket installed.
 
- go back to IIS, sites -> Default -> 
-1. osTicket
-2. Double-click PHP Manager
-3. Click Enable or disable an extension
+ go back to IIS, sites -> Default -> osTicket -> Double-click PHP Manager -> Click Enable or disable an extension
  
 1. Enable: php_imap.dll
 2. Enable: php_intl.dll
