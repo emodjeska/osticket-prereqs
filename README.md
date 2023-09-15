@@ -43,9 +43,18 @@ Now that we have downloaded IIS, we can download Web Platform Installers (Web PI
 
 From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload”.  reload IIS. Go to sites -> default -> osTicket, from here on the top righthand side of the sreen you will select "restart" and the system will restart with osTicket installed.
 
- go back to IIS, sites -> Default -> 1. osTicket 2. Double-click PHP Manager 3. Click Enable or disable an extension 1. Enable: php_imap.dll 2. Enable: php_intl.dll 3. Enable: php_opcache.dll -
+ go back to IIS, sites -> Default -> 
+1. osTicket
+2. Double-click PHP Manager
+3. Click Enable or disable an extension
+ 
+1. Enable: php_imap.dll
+2. Enable: php_intl.dll
+3.  Enable: php_opcache.dll -
 
-Assign Permissions: ost-config.php To change the permissions, right-click ost-config --> select 'properties' --> select the 'Security' tab at the top --> select the 'Advanced' button1. Disable inheritance -> Remove All 2. New Permissions -> Everyone -> All
+Assign Permissions: ost-config.php To change the permissions, right-click ost-config --> select 'properties' --> select the 'Security' tab at the top --> select the 'Advanced' button
+1. Disable inheritance -> Remove All
+2.  New Permissions -> Everyone -> All
 
 When you have allowed permissions to your computer, you will have to download and install HeidiSQL from google drive using the provided defaults that are provided in the install wizard.
 
