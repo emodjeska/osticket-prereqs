@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/fbe879b3-80ce-4bd2-92a0-92a5ce4b69a9)
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/6ef4735c-bf21-41f4-8ea6-470984d10d90)
 
 
 Firstly, we are going to install IIS (Internet Information Dervices) with CGI and common HTTP features. From your Windows search bar go to "programs", then select "uninstall a program" and go to "Turn Windows features on and off". From here, be sure to select CGI and turn on all the common HTTP features.
