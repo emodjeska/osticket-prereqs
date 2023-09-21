@@ -45,8 +45,7 @@ Now that we have downloaded IIS, we can download PHP Mangager and Rewrite Module
 </p>
 <br />
 
-![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/45553263-9898-4bdd-9de6-c52081874c99)
-
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/e1490b73-3fa1-4fee-9b79-0e324eb4351f)
 
 From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload”.  Reload IIS. Go to sites -> default -> osTicket, from here on the top righthand side of the sreen you will select "restart" and the system will restart with osTicket installed.
 
