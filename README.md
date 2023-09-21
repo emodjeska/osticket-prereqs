@@ -32,8 +32,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/6ef4735c-bf21-41f4-8ea6-470984d10d90)
 
+Welcome to this tutorial on how to install and set up OS Ticket, a common ticketing system used in many Help Desk senarios. This lab will help us get a greater sense of how ticketing system work from an admin position to being a customer. Let's get into it.
 
-Firstly, we are going to install IIS (Internet Information Dervices) with CGI and common HTTP features. From your Windows search bar go to "programs", then select "uninstall a program" and go to "Turn Windows features on and off". From here, be sure to select CGI and turn on all the common HTTP features.
+First things first, Go into Azure and set up a virual Machine that is running Windows 10. Then use remote desktop to log into the newly generated PC.
+
+Now that we are all set up, we are going to install IIS (Internet Information Dervices) with CGI and common HTTP features. From your Windows search bar go to "programs", then select "uninstall a program" and go to "Turn Windows features on and off". From here, be sure to select CGI and turn on all the common HTTP features.
 
 Now that we have downloaded IIS, we can download Web Platform Installers (Web PI), this program allows a simplifed installation workflow for installing common open source web applications, like osTicket. Once these programs are running on your windows computer, and we have added MySQL 5.5 database, PHP 5.6.31, and the various verisons of between PHP (x86) 7.0 and 7.3, then we are ready to install osTicket.
 </p>
