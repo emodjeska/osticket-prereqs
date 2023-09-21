@@ -41,13 +41,14 @@ Now that we are all set up, we are going to install IIS (Internet Information De
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9bb534cb-34fd-4ff7-bc19-9cd170f3f87d)
 
 
-Now that we have downloaded IIS, we can download Web Platform Installers (Web PI), this program allows a simplifed installation workflow for installing common open source web applications, like osTicket. Once these programs are running on your windows computer, and we have added MySQL 5.5 database, PHP 5.6.31, and the various verisons of between PHP (x86) 7.0 and 7.3, then we are ready to install osTicket.
+Now that we have downloaded IIS, we can download PHP Mangager and Rewrite Module, these programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. Once these programs are running on your windows computer, and we have added MySQL 5.5 database, PHP 5.6.31, and the various verisons of between PHP (x86) 7.0 and 7.3, then we are ready to install osTicket. 
 </p>
 <br />
 
-![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9774500a-b229-487d-aaeb-a3d816807f98)
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/45553263-9898-4bdd-9de6-c52081874c99)
 
-From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload”.  reload IIS. Go to sites -> default -> osTicket, from here on the top righthand side of the sreen you will select "restart" and the system will restart with osTicket installed.
+
+From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload”.  Reload IIS. Go to sites -> default -> osTicket, from here on the top righthand side of the sreen you will select "restart" and the system will restart with osTicket installed.
 
  go back to IIS, sites -> Default -> osTicket -> Double-click PHP Manager -> Click Enable or disable an extension
  
