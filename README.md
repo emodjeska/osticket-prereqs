@@ -41,7 +41,7 @@ Now that we are all set up, we are going to install IIS (Internet Information sy
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9bb534cb-34fd-4ff7-bc19-9cd170f3f87d)
 
 
-Now that we have downloaded IIS, we can download PHP Mangager, Rewrite Module, along with a few other downloads. These programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to Unzip the folder by right clicking it and export its contents into a self made, PHP folder. Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
+Now that we have downloaded IIS, we can download PHP Mangager, Rewrite Module, along with a few other downloads. These programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to Unzip the folder by right clicking it and export its contents into the C:/ PHP folder. Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
 
 https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km
 </p>
