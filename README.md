@@ -38,6 +38,8 @@ Now that we are all set up, we are going to install IIS (Internet Information De
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/934a6ea6-26c7-4eb3-a1bb-90744c2a97ee)
 
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9bb534cb-34fd-4ff7-bc19-9cd170f3f87d)
+
 
 Now that we have downloaded IIS, we can download Web Platform Installers (Web PI), this program allows a simplifed installation workflow for installing common open source web applications, like osTicket. Once these programs are running on your windows computer, and we have added MySQL 5.5 database, PHP 5.6.31, and the various verisons of between PHP (x86) 7.0 and 7.3, then we are ready to install osTicket.
 </p>
