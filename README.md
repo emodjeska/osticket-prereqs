@@ -32,16 +32,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Welcome to this tutorial on how to install and set up OS Ticket, a common ticketing system used in many Help Desk senarios. This lab will help us get a greater sense of how ticketing system work from an admin position to being a customer. Let's get into it.
 
-First things first, Go into Azure and set up a virual Machine that is running Windows 10. Then use remote desktop to log into the newly generated PC.
+First things first, Go into Azure and set up a virual Machine that is running Windows 10. Then use remote desktop to log into the newly generated PC. Use the IP address found in the azure portal to connect to it.
 
-Now that we are all set up, we are going to install IIS (Internet Information Dervices) with CGI and common HTTP features. From your Windows search bar go to "programs", then select "uninstall a program" and go to "Turn Windows features on and off". From here, be sure to select CGI and turn on all the common HTTP features.
+Now that we are all set up, we are going to install IIS (Internet Information systems) with CGI and common HTTP features. From your Windows search bar go to "programs", then select "Turn Windows features on and off". From here, be sure to select CGI and turn on all the common HTTP features.
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/934a6ea6-26c7-4eb3-a1bb-90744c2a97ee)
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9bb534cb-34fd-4ff7-bc19-9cd170f3f87d)
 
 
-Now that we have downloaded IIS, we can download PHP Mangager and Rewrite Module, these programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. Once these programs are running on your windows computer, We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to Unzip the folder by right clicking it and export its contents into a self made, PHP folder. Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
+Now that we have downloaded IIS, we can download PHP Mangager, Rewrite Module, along with a few other downloads. These programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to Unzip the folder by right clicking it and export its contents into a self made, PHP folder. Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
 
 https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km
 </p>
