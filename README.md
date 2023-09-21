@@ -55,6 +55,9 @@ From the downloaded files, we can now install and extract the osTicket file. Ext
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/2346de50-2e9f-4cb0-a254-8073d679ff0d)
 
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/0d058043-5949-419e-a394-49166c05bc8a)
+
+
  go back to IIS, sites -> Default -> osTicket -> Double-click PHP Manager -> Click Enable or disable an extension
  
 
