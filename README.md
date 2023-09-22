@@ -59,10 +59,27 @@ After we go back to IIS, sites -> Double-click PHP Manager -> Click Enable or di
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/0d058043-5949-419e-a394-49166c05bc8a)
 
 
- go back to IIS, sites -> Double-click PHP Manager -> Click Enable or disable an extension
- 
+ When click on Browse *80, you should see this screen pop up, let you know that you have successfully downloaded OS Ticket. Congradulations!
 
-Assign Permissions: ost-config.php To change the permissions, right-click ost-config --> select 'properties' --> select the 'Security' tab at the top --> select the 'Advanced' button
+ ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/b1a51bc5-9586-4a80-89f0-8fb82a6f8e6a)
+
+ Now go back to IIS -> Sites-> default -> osTicket -> double click "Enable or disable extention" -> Enable php_imap.dll, php_intl.dll, and php_pocache.dll.
+
+ ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/d45a5eeb-f26b-4011-a844-18feaa53fbd1)
+
+ Now you should be able to go back into osTicket and observe the changes.
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/71d78b1b-b3fe-476a-89e0-5f66f96353c8)
+
+Go into wwwroot folder and rename ostsample-config folder to ost-config 
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/de3d2192-9c1a-420b-9f82-31a92798d9ce)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/688693f2-ad98-44de-acfa-bf7ff7fbd278)
+
+
+
+Assign Permissions: ost-config.php To change the permissions, right-click ost-config -> select 'properties' -> select the 'Security' tab at the top --> select the 'Advanced' button
 1. Disable inheritance -> Remove All
 2.  New Permissions -> Everyone -> All
 
