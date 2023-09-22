@@ -78,20 +78,56 @@ Go into wwwroot folder and rename ostsample-config folder to ost-config
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/688693f2-ad98-44de-acfa-bf7ff7fbd278)
 
 
-
 Assign Permissions: ost-config.php To change the permissions, right-click ost-config -> select 'properties' -> select the 'Security' tab at the top --> select the 'Advanced' button
 1. Disable inheritance -> Remove All
 2.  New Permissions -> Everyone -> All
 
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/05e9a2ed-0677-461a-8abd-1869644e3d87)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/66ec4849-7352-4b3e-bb48-4c38dd4bbb35)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/ae278fcf-4427-4964-8e3a-07a460a2dc92)
+
+We will now hit continue on the OS Ticket installation page and fill out our basic information.
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/46047cca-6338-4017-abf6-3673e733de5b)
+
 When you have allowed permissions to your computer, you will have to download and install HeidiSQL from google drive using the provided defaults that are provided in the install wizard.
 
-</p>
-<br />
+Open and download HeidiSQL. create a new session and assign it a username and password. Then create a database called "osTicket". Enter your information (username and Password) into osTicket installer and click "Install".
 
-![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/0af0aba0-e2db-4624-b01e-0ac61a584498)
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/fd0c9159-df92-491a-ad3f-36a414885414)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/161b641e-e0c2-43d1-87e5-3fc595211142)
+
+We now have a Hiedi databased named osTicket. Go back to the osTicket installer and input the information you just created in the SQL server.
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/ffe22b4f-ba35-4c80-8d11-ba2de5c06127)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/33bdd80a-4cec-4956-a908-3e95b791f42a)
+
+Now that we have OS Ticket successfully installed on our computer, we are going to clean up by deleting the "setup" folder within our "wwwroot" folder. We will also go back into the "ost-config.php" file and set it to read only. If you do not remember where that is, it is in our "include" folder found within the "wwwroot" folder.
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/e4f44acd-30ba-473c-8cc2-2a09b5689c93)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/cf944cc2-0334-473f-884a-8e7d52bf97bc)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/d0dd6539-7161-4bd7-b93b-dafdbcc0c0ec)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/1b22d5e1-4d1f-4f4f-8d12-f020f3f2fd8c)
+
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/7350be71-16a5-431c-8c49-ee8594043fd6)
+
+Congradulation! You succesfully downloaded OS Ticket!
 
 
-Open and download HeidiSQL. create a new session and assign it a username and password. Then create a database called "osTicket". Enter your information (username and Password) into osTicket installer and click "Install". Congradulations, hopefully osTicket will be installed correctly into your computer. From here you are able to access the "Staff Contol Panel" to do administative tasks and the "End User Portal" to access and complete tickets. 
+
+From here, on your VM, You may access the website through this link.
+http://localhost/osTicket/setup/install.php
+
+and you may access the Admin Account through this link.
+http://localhost/osTicket/
+
 
 From here, you are able to set up osTicket to fit the needs of your business. 
 
