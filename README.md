@@ -120,14 +120,13 @@ Now that we have OS Ticket successfully installed on our computer, we are going 
 
 Congradulation! You succesfully downloaded OS Ticket!
 
+![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/a3c390e5-cf94-4d31-a88a-522791f523af)
 
+From here, on your VM, You may access the staff portal through this link.
+http://localhost/osTicket/scp/login.php
 
-From here, on your VM, You may access the website through this link.
-http://localhost/osTicket/setup/install.php
-
-and you may access the Admin Account through this link.
-http://localhost/osTicket/
-
+and you may access the End-User portal through this link.
+ http://localhost/osTicket/ 
 
 From here, you are able to set up osTicket to fit the needs of your business. 
 
