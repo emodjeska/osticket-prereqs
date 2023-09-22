@@ -50,6 +50,7 @@ https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/e1490b73-3fa1-4fee-9b79-0e324eb4351f)
 
 From the downloaded files, we can now install and extract the osTicket file. Extract and copy the “upload” file and drag it into the c inetpub wwwroot folder, found in the windows c folder at the bottom of the downloads.  You must then rename the new "upload" file as "osTicket". Then we will reload IIS and restart the system. Then OS Ticket should be downloaded.
+After we go back to IIS, sites -> Double-click PHP Manager -> Click Enable or disable an extension, we will be ready to open OS Ticket.
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/1e2daf2c-d845-49dc-8bf5-d5f5c0523c7e)
 
@@ -58,7 +59,7 @@ From the downloaded files, we can now install and extract the osTicket file. Ext
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/0d058043-5949-419e-a394-49166c05bc8a)
 
 
- go back to IIS, sites -> Default -> osTicket -> Double-click PHP Manager -> Click Enable or disable an extension
+ go back to IIS, sites -> Double-click PHP Manager -> Click Enable or disable an extension
  
 
 Assign Permissions: ost-config.php To change the permissions, right-click ost-config --> select 'properties' --> select the 'Security' tab at the top --> select the 'Advanced' button
