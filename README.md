@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-Welcome to this tutorial on how to install and set up OS Ticket, a common ticketing system used in many Help Desk senarios. This lab will help us get a greater sense of how ticketing system work from an admin position to being a customer. Let's get into it.
+Welcome to this tutorial on how to install and set up OS Ticket, a common ticketing system used in many Help Desk senarios. This lab will help us get a greater sense of how ticketing system work from an admin position, an agent, and a end-user Let's get into it.
 
 First things first, Go into Azure and set up a virual Machine that is running Windows 10. Then use remote desktop to log into the newly generated PC. Use the IP address found in the azure portal to connect to it.
 
@@ -40,8 +40,7 @@ Now that we are all set up, we are going to install IIS (Internet Information sy
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/9bb534cb-34fd-4ff7-bc19-9cd170f3f87d)
 
-
-Now that we have downloaded IIS, we can download PHP Mangager, Rewrite Module, along with a few other downloads. These programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to Unzip the folder by right clicking it and export its contents into the C:/ PHP folder (Create directory by creating a PHP folder within the Windows C folder. Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
+Now that we have downloaded IIS, we can download PHP Mangager, Rewrite Module, along with a few other downloads. These programs allow a simplifed installation workflow for installing common open source web applications, like osTicket. We are going to install PHP Mangaer, Rewrite Admin, and VC_redist, mysql5.5.62, and the various versions of PHP from a folder found in the simple list below. Note, when you install the PHP folder, you will have to unzip the folder by right clicking it and exporting its contents into the C:/ PHP folder (Create directory by creating a PHP folder within the Windows C folder). Finally, download osticket onto your system. All these downloads can be found on the simple list found here.
 
 https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km
 </p>
@@ -58,8 +57,7 @@ After we go back to IIS, sites -> Double-click PHP Manager -> Click Enable or di
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/0d058043-5949-419e-a394-49166c05bc8a)
 
-
- When click on Browse *80, you should see this screen pop up, let you know that you have successfully downloaded OS Ticket. Congradulations!
+ When you click on Browse *80, you should see this screen pop up, letting you know that you have successfully downloaded OS Ticket.
 
  ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/b1a51bc5-9586-4a80-89f0-8fb82a6f8e6a)
 
@@ -71,14 +69,13 @@ After we go back to IIS, sites -> Double-click PHP Manager -> Click Enable or di
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/71d78b1b-b3fe-476a-89e0-5f66f96353c8)
 
-Go into wwwroot folder and rename ostsample-config folder to ost-config 
+Go into wwwroot folder and rename "ostsample-config" "folder to ost-config" 
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/de3d2192-9c1a-420b-9f82-31a92798d9ce)
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/688693f2-ad98-44de-acfa-bf7ff7fbd278)
 
-
-Assign Permissions: ost-config.php To change the permissions, right-click ost-config -> select 'properties' -> select the 'Security' tab at the top --> select the 'Advanced' button
+Assign Permissions: ost-config.php. To change the permissions, right-click ost-config -> select 'properties' -> select the 'Security' tab at the top -> select the 'Advanced' button
 1. Disable inheritance -> Remove All
 2.  New Permissions -> Everyone -> All
 
@@ -92,9 +89,9 @@ We will now hit continue on the OS Ticket installation page and fill out our bas
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/46047cca-6338-4017-abf6-3673e733de5b)
 
-When you have allowed permissions to your computer, you will have to download and install HeidiSQL from google drive using the provided defaults that are provided in the install wizard.
+When you have allowed permissions to your computer, you will have to download and install HeidiSQL from google drive using the provided defaults.
 
-Open and download HeidiSQL. create a new session and assign it a username and password. Then create a database called "osTicket". Enter your information (username and Password) into osTicket installer and click "Install".
+Open and download HeidiSQL. create a new session and assign it a username and password. Then create a database called "osTicket". Enter your information (username and Password) into the osTicket installer and click "Install".
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/fd0c9159-df92-491a-ad3f-36a414885414)
 
@@ -118,7 +115,7 @@ Now that we have OS Ticket successfully installed on our computer, we are going 
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/7350be71-16a5-431c-8c49-ee8594043fd6)
 
-Congradulation! You succesfully downloaded OS Ticket!
+Congradulations! You succesfully downloaded OS Ticket!
 
 ![image](https://github.com/emodjeska/osticket-prereqs/assets/143763072/a3c390e5-cf94-4d31-a88a-522791f523af)
 
@@ -131,5 +128,4 @@ and you may access the End-User portal through this link.
 From here, you are able to set up osTicket to fit the needs of your business. 
 
 Thank you for joining me today, to install and set up osTicket. 
-</p>
-<br />
+
